@@ -1,14 +1,14 @@
 import './App.css';
 import './index.css'
 
+import React from 'react';
 import Welcome from './Welcome'
 
-function App() {
-  return (
+const App = () =>  (
     <div className="App">
     <Welcome />
     </div>
   );
-}
+
 
 export default App;
