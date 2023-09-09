@@ -7,6 +7,7 @@ import Welcome from './Welcome'
 const App = () =>  (
     <div className="App">
     <Welcome />
+    <h1 class="text-green-600">TASTY KITCHENS</h1>
     </div>
   );
 
